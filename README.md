@@ -5,6 +5,7 @@ This repository contains my hands-on computer networking labs and configuration 
 ---
 
 ## Lab 1: Small Office DHCP Configuration
+![Lab 1 Network Topology](lab1_topology.png)
 ### Project Objective
 Demonstrates how to configure a Cisco router as a DHCP server to automatically assign IP addresses to end devices within a local area network (LAN).
 
@@ -16,6 +17,7 @@ Demonstrates how to configure a Cisco router as a DHCP server to automatically a
 ---
 
 ## Lab 2: Secure Home Wi-Fi Network
+![Lab 2 Network Topology](lab2_topology.png)
 ### Project Objective
 Demonstrates how to set up a wireless home network, customize the network name (SSID), and deploy WPA2 Personal password security to encrypt the network links.
 
@@ -28,6 +30,7 @@ Demonstrates how to set up a wireless home network, customize the network name (
 ---
 
 ## Lab 3: Multi-Router Inter-Department Static Routing
+![Lab 3 Network Topology](lab3_topology.png)
 ### Project Objective
 Demonstrates how to interconnect separate office corporate departments across a dual-router backbone layout using manual static routes for reliable end-to-end delivery.
 
