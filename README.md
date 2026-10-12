@@ -27,6 +27,18 @@ Demonstrates how to set up a wireless home network, customize the network name (
 
 ---
 
+## Lab 3: Multi-Router Inter-Department Static Routing
+### Project Objective
+Demonstrates how to interconnect separate office corporate departments across a dual-router backbone layout using manual static routes for reliable end-to-end delivery.
+
+### Network Topology & Settings
+- **Sales Infrastructure:** Router-Sales (Gateway: 192.168.10.1) -> Switch -> PC0 Static IP (192.168.10.10)
+- **HR Infrastructure:** Router-HR (Gateway: 192.168.20.1) -> Switch -> PC1 Static IP (192.168.20.10)
+- **Backbone Link:** Serial/Copper connection between routers on the 10.0.0.0/30 transit network block.
+- **Routing Logic:** Configured `ip route` tables on both endpoints for cross-department ping confirmation.
+
+---
+
 ## How to Run These Labs
 1. Download and install [Cisco Packet Tracer](https://netacad.com).
 2. Download the `.pkt` files from this repository.
